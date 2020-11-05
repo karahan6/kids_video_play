@@ -1,16 +1,18 @@
 # kidsvideoplay
 
-A new Flutter application that ensures controlled and healthy youtube video platform
+A new Flutter application that ensures controlled and healthy youtube video platform for kids
 
-## Getting Started
+## Motivation
 
-This project is a starting point for a Flutter application.
+In Youtube or similar applications, there are two main problems for kids; 
 
-A few resources to get you started if this is your first Flutter project:
+- There are millions of channels in Youtube. Thus, blocking specific channels is not enough,
+- The avarage view duration is very small, even they click another video before the current one start.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+This application addresses these problems by presenting following solutions;
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- The option to list only the videos of selected channels, 
+- The blocking time can be choosen to prevent going back or clicking another video in that time period
+
+This is a Flutter application and I use provider for state management shared_preferences for persisting 
+data.  
