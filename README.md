@@ -1,4 +1,4 @@
-# kidsvideoplay
+# Kids Video Play
 
 A new Flutter application that ensures controlled and healthy youtube video platform for kids
 
@@ -15,4 +15,4 @@ This application addresses these problems by presenting following solutions;
 - The blocking time can be choosen to prevent going back or clicking another video in that time period
 
 This is a Flutter application and I use provider for state management shared_preferences for persisting 
-data.  
+data. This is not a product level application because of quato limitation of Google API. 
